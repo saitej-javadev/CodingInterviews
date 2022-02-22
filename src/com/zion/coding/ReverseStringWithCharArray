@@ -1,0 +1,17 @@
+package com.zion.coding;
+
+public class ReverseStringWithToCharArray {
+    public void reverse(String str) {
+        char ch[] = str.toCharArray();
+        int originalLength = ch.length;
+        for (int i = originalLength - 1; i >= 0; i--) {
+            System.out.print(ch[i]);
+        }
+    }
+    public static void main(String[] args){
+        ReverseStringWithToCharArray rs = new ReverseStringWithToCharArray();
+            rs.reverse("saiteja galipelli");
+
+
+    }
+}
